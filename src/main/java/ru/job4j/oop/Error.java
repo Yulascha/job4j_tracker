@@ -1,11 +1,8 @@
 package ru.job4j.oop;
 
 public class Error {
-
     private boolean active;
-
     private int status;
-
     private String message;
 
     public Error(boolean active, int status, String message) {
@@ -28,5 +25,7 @@ public class Error {
         error.printInfo();
         Error err = new Error(true,1,"online");
         err.printInfo();
+        Error print = new Error(false,9,"text");
+        print.printInfo();
     }
 }
