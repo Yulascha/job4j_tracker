@@ -23,9 +23,9 @@ public class Error {
     public static void main(String[] args) {
         Error error = new Error();
         error.printInfo();
-        Error err = new Error(true,1,"online");
+        Error err = new Error(true, 1, "online");
         err.printInfo();
-        Error print = new Error(false,9,"text");
+        Error print = new Error(false, 9, "text");
         print.printInfo();
     }
 }
